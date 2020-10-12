@@ -1,0 +1,224 @@
+.mycarouselbox {
+	max-width: 100%;
+	max-height: 500px;
+}
+
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+ul li{
+    list-style-type: none;
+}
+.side-bar-wrapper{
+    background-color: #00283a;
+}
+.row{
+    max-width: 100%;
+}
+.row h3{
+    color: white;
+} 
+#todays-deals{
+background-color: rgb(34, 3, 63);
+    font-size: larger;
+    font-weight: 700;
+    size: 10rem;
+    padding: 1rem;
+    color: white;
+}
+#todays-deals a{
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-transform: capitalize;
+   
+}
+
+.text-cente{
+    float: left;
+}
+
+.shopping-confindence{
+    text-align: center;
+    font-weight: bold;
+}
+.shopping-confindence h3{
+    color: #cc4e00;
+    font-size: xx-large;
+    
+}
+.confidence-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+}
+
+
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  /**.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  /*.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    
+    margin: 100px;
+  }
+  .text{
+      color: rgb(0, 0, 0);
+      text-align-last: center;
+  }
+  .text h1{
+    padding: 0%;
+      font-weight: 600;
+      font-size: 50px;
+      color: #e472a7;
+  }
+  .text p{
+      font-weight: 10;
+      font-size: 30px;
+      padding-bottom: 5%;
+      padding: 0%;
+  }
+  .text img{
+    width: 95%;
+    height: 300px;
+  }
+  
+  h3{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 3%;
+    margin: 5%;
+  }
+  .column {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 256px;
+    min-width: 256px;
+    /*margin: 0.08%;
+    text-align: center;
+    font-family: arial;
+    size: 10px;
+     margin-left: 2%;
+     margin-top: 1.8%; */
+  
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .column button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .column button:hover {
+    opacity: 0.7;
+  }
+  
+  .cardset{
+    grid-auto-flow: row;
+    
+  
+  }
+  /* The grid: Four equal columns that floats next to each other */
+  /* .column {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin: 40px;
+   
+  } */
+
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  .secimg{
+    padding: 10px;
+    margin: 10px;
+  }
+  .secimg img{
+    margin: 10px;
+    width: 48%;
+  }
+  .myfooter{
+      background-color: teal;
+  }
+  .myfooter p{
+      color: white;
+  }
+
+  #responsive{
+    justify-content: space-evenly;
+    padding: 2px;
+    margin: 2px;
+  }
